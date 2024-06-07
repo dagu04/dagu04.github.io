@@ -1,14 +1,15 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
     
-    <html language="en">
+    
     
     <title>Error-Filled Page</title>
     
 <body>
-    <h1>Welcome to My Error-Filled Page
+    <h1>Welcome to My Error-Filled Page</h1>
     
-    This is a paragraph with mismatched tags and missing closing tags.</p>
+    <p>This is a paragraph with mismatched tags and missing closing tags.</p>
     
     <ol>
         <li>Item 1</li>
@@ -21,9 +22,9 @@
         <li>Item 8</li>
         <li>Item 9</li>
         <li>Item 10</li>
-    </ul>
+    </ol>
 
-    <p>This is another paragraph without proper indentation.
+    <p>This is another paragraph without proper indentation.</p>
     
     <img src="image.jpg">
 
@@ -51,9 +52,9 @@
 
     <input type="button" value="Click me">
 
-    <!-- This is an unclosed comment
+    <!-- This is an unclosed comment !-->
 
-    <a href="#">Link without closing tag
+    <a href="#">Link with closing tag</a>
 
     <p><em>Underlined text</p></em>
 
@@ -64,15 +65,15 @@
 </body>
 </html>
 
-#Error list:
-#1
-#2
-#3
-#4
-#5
-#6
-#7
-#8
+<!--Error list:
+#1 Closed the unclosed comment by adding a closing tag
+#2 Closed the link without closing tag by adding the closing tag "</a>"
+#3 Added closing tag to h1
+#4 Added closing tag to paragraph
+#5 Fixed mismatched ordered/unordered list by changing </ul> to </ol>
+#6 Fixed other paragraph bya adding closing tag
+#7 Placed <html lang="en"> before head and changed "language" to "lang"
+#8 Fixed first tag by adding "!DOCTYPE" before "html"
 #9
 #10
 #11
@@ -85,3 +86,4 @@
 #18
 #19
 #20
+!-->
