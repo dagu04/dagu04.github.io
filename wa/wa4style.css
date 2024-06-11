@@ -50,5 +50,9 @@ body, h2, p {
   .card article img {
     max-height: 12em;
     float: right;
-    background-color: rgb(0, 0, 0, 0.5);
+  }
+
+  .card article {
+    max-height: 12em;
+    background-color: rgb(0, 0, 0, 0.5)
   }
