@@ -48,12 +48,12 @@ body, h2, p {
   /* Card contents */
 
   .card article img {
-    max-height: 100%;   /* Total height of card = 22em, Footer and header are 3em, 22 - 6 = 16em */
+    max-height: 12em;   /* Total height of card = 22em, Footer and header are 3em, 22 - 6 = 16em */
     float: right;
   }
 
   .card article {
-    max-height: 16em; 
+    max-height: 12em; 
     background-color: rgb(0, 0, 0, 0.3)
   }
 
