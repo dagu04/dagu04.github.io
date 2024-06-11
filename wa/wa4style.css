@@ -12,6 +12,7 @@ body, h2, p {
   
   h2 {
     font-size: 2em;
+    line-height: 1.5em;
   }
 
   /* Card container */  
@@ -43,6 +44,7 @@ body, h2, p {
   
   .card footer p {
     font-size: 1.5em;
+    line-height: 1.75em;
   }
 
   /* Card contents */
@@ -55,4 +57,10 @@ body, h2, p {
   .card article {
     max-height: 12em; 
     background-color: rgb(0, 0, 0, 0.3)
+  }
+
+  .card article p {
+    padding: 1em 1em 1em 1em;
+    color: white;
+    font-size: 1.2em;
   }
