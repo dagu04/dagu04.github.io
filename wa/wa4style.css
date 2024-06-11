@@ -47,10 +47,6 @@ body, h2, p {
 
   /* Card contents */
 
-  .card article {
-    max-height: 12em;
-  }
-  
   .card article img {
     max-height: 12em;
     float: right;
