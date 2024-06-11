@@ -50,7 +50,7 @@ body, h2, p {
   /* Card contents */
 
   .card article img {
-    max-height: 12em;   /* Total height of card = 22em, Footer and header are 3em, 22 - 6 = 16em */
+    max-height: 12em;   /* Total height of card = 22em, Footer and header are 3em plus padding, 22 - 10 = 16em */
     float: right;
   }
 
