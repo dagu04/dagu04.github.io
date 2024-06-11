@@ -1,6 +1,6 @@
 /* General styles - put these straight into your stylesheet */
 
-body {
+body, h2, p {
     margin: 0;
   }
   
