@@ -23,7 +23,7 @@ body {
   /* Header and footer */  
 
   .card footer, .card header {
-    height:30px;
+    height: 30px;
     padding: 10px 10px 10px 10px;
   }
 
