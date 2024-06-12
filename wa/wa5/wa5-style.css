@@ -5,6 +5,7 @@ body {
 
 .brand {
     background-color: rgba(0,0,0,1);
+    background-image: url(hellisthesunwhite.jpg) no-repeat center;
     font-family: 'Helvetica neue', Arial, 'sans serif';
     margin: 4em;
     padding: 3em;
