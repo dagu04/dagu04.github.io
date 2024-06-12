@@ -13,10 +13,12 @@ body {
 
 .brand h1 {
     font-size: 30px;
+    text-shadow: 5px 5px 3px black;
 }
 
 .brand p {
     font-size: 20px;
+    text-shadow: 2px 2px 2px black;
 }
 
 .box-a {
