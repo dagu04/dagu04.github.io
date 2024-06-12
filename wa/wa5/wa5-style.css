@@ -12,16 +12,16 @@ body {
 }
 
 .brand h1 {
-    font-size: 3em;
+    font-size: 30px;
 }
 
 .brand p {
-    font-size: 2em;
+    font-size: 20px;
 }
 
 .box-a {
     font-family: 'Helvetica neue', Arial, 'sans serif';
-    font-size: 1em;
+    font-size: 10px;
     max-width: 40em;
     background-color: aquamarine;
     padding: 3em;
