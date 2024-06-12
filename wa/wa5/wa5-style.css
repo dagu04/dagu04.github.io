@@ -9,7 +9,7 @@ body {
     margin: 4em;
     padding: 3em;
     color: white;
-    background-image: url(Hell\ is\ the\ Sun\ White.png);
+    background-image: url(Hell\ is\ the\ Sun\ White.png) no-repeat center;
 }
 
 .brand h1 {
@@ -22,7 +22,7 @@ body {
     text-shadow: 2px 2px 2px black;
 }
 
-a {
+.brand a {
     color: white;
 }
 
