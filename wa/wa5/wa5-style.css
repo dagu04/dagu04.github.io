@@ -1,6 +1,8 @@
 .box-a {
     font-family: 'Helvetica neue', Arial, 'sans serif';
     font-size: 10px; /* 10px = 1em */
+    max-width: 60em;
+    background-color: aquamarine;
     }
 
 body {
