@@ -1,4 +1,9 @@
+.box-a {
+    font-family: 'Helvetica neue', Arial, 'sans serif';
+    font-size: 10px; /* 10px = 1em */
+    }
+
 body {
     background-image: url(wa5image.jpg) no-repeat left top; 
     max-width: 100%;
-}
+    }
