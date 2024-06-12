@@ -39,3 +39,6 @@
   }
   
   /* Your CSS below here */
+  .top-image {
+    position: relative, top;
+  }
