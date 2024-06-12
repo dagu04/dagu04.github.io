@@ -3,6 +3,9 @@
     font-size: 10px; /* 10px = 1em */
     max-width: 60em;
     background-color: aquamarine;
+    border: 1em, rgba(0,0,0,1);
+    padding: 3em;
+    margin: 4em;
     }
 
 body {
