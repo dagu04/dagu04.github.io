@@ -13,9 +13,13 @@ body {
     }
 
 .brand {
-    background: rgba(0,0,0,1);
+    background-color: rgba(0,0,0,1);
     font-family: 'Helvetica neue', Arial, 'sans serif';
     font-size: 4em;
     margin: 4em;
     padding: 3em;
+}
+
+.brand h1, .brand p {
+    color:white;
 }
