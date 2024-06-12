@@ -32,4 +32,9 @@ body {
     background-color: aquamarine;
     padding: 3em;
     margin: 4em;
-    }
+}
+
+.box-a .jazz {
+    border: 1px;
+    padding: 1em;
+}
