@@ -1,7 +1,7 @@
 .box-a {
     font-family: 'Helvetica neue', Arial, 'sans serif';
     font-size: 10px; /* 10px = 1em */
-    max-width: 60em;
+    max-width: 40em;
     background-color: aquamarine;
     border: 1em, rgba(0,0,0,1);
     padding: 3em;
