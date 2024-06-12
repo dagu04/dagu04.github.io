@@ -39,12 +39,16 @@
   }
   
   /* Your CSS below here */
-  .top-image {
-    position: relative, top;
+  article {
+    background: url(top-image.png) top;
+    background: linear-gradient(to bottom, rgba(0,0,0,0.2), rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.2)),
+                url(top-image.png) top,
+                url(bottom-image.png) bottom;
+    background-color: white;
+    border-top: 1mm solid green;
+    border-bottom: 1mm solid green;
   }
-
-  .bottom-image {
-    position: relative, bottom;
-  }
-
   
+  h1 {
+    background-image: url(logo.png);
+  }
