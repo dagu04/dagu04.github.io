@@ -4,12 +4,12 @@ body {
     }
 
 .brand {
+    background-image: url(hellisthesunwhite.png) no-repeat center;
     background-color: rgba(0,0,0,1);
     font-family: 'Helvetica neue', Arial, 'sans serif';
     margin: 4em;
     padding: 3em;
     color: white;
-    background-image: url(hellisthesunwhite.png) no-repeat center;
 }
 
 .brand h1 {
