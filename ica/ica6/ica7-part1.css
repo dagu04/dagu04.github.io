@@ -25,6 +25,8 @@ body{
     border-radius:3px;
     border-color:purple;
     background-color: mediumvioletred;
+    position: fixed;
+    bottom: 0px;
 }
 
 #text2 {
@@ -36,7 +38,6 @@ body{
     background-color: orangered;
     position: fixed;
     top: 0px;
-    left: 0px;
 }
 
 #text3 {
