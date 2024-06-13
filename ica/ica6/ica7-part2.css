@@ -5,27 +5,30 @@ body{
 
 #flex-parent{
     background-color: orangered;
+    flex-direction: row;
+    display: flex;
 }
 #flex-parent p{
     padding:5vw;
 }
 
 #flex-child1{
-     
+    order: 2;
 }
 #flex-child2{
- 
+    order: 3;
 }
 #flex-child3{
- 
+    order: 1;
 }
 #flex-child4{
- 
+    order: 0; 
 }
 
 
 #grid-parent{
-
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
 }
 
 #grid-parent h1{
@@ -35,32 +38,32 @@ body{
     
 }
 #no0{
-    
+    order: 9;
 }
 #no1{
-
+    order: 6;
 }
 #no2{
-
+    order: 7;
 }
 #no3{
-
+    order: 8;
 }
 #no4{
-
+    order: 3;
 }
 #no5{
-
+    order: 4;
 }
 #no6{
-
+    order: 5;
 }
 #no7{
-
+    order: 0;
 }
 #no8{
-
+    order: 1;
 }
 #no9{
-
+    order: 2;
 }
