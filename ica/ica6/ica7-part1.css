@@ -28,7 +28,7 @@ body{
 }
 
 #text2 {
-    position: bottom left;
+    position: absolute bottom left;
 }
 
 #box3{
@@ -40,4 +40,5 @@ background-color: orangered;
 #text3 {
     font-size: 50px;
     border: 5px solid green;
+    position: absolute top
 }
