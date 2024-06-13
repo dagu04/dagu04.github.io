@@ -4,7 +4,6 @@ body {
     }
 
 .brand {
-    background-color: rgba(0,0,0,1);
     background-image: url(hellisthesunwhite.jpg) no-repeat center;
     font-family: 'Helvetica neue', Arial, 'sans serif';
     margin: 4em;
@@ -35,7 +34,7 @@ body {
     margin: 4em;
 }
 
-.jazz {
+.box-a .jazz {
     border: solid black 1px;
     padding: 1em;
 }
