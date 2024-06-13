@@ -13,9 +13,9 @@ body{
 }
 
 #text1 {
-    left: 150%;
+    left: 80%;
     top: 250px;
-
+    position: absolute;
 }
 
 #box2{
@@ -25,22 +25,22 @@ body{
     border-radius:3px;
     border-color:purple;
     background-color: mediumvioletred;
-    position: fixed;
-    bottom: 0px;
 }
 
 #text2 {
-    float: bottom left;
+    position: relative;
+    top: 28vh;
 }
 
 #box3{
+    height: 1500px;
     border-radius: 10px;
     background-color: orangered;
-    position: fixed;
-    top: 0px;
 }
 
 #text3 {
     font-size: 50px;
     border: 5px solid green;
+    position: sticky;
+    top: -1px;
 }
