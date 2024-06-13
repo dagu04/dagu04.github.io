@@ -5,8 +5,9 @@ body {
     }
 
 .brand {
+    position: relative bottom;
     background-color: rgba(0,0,0,1);
-    background-image: url(hellisthesunwhite.jpg) no-repeat center;
+    background-image: url(hellisthesun.jpg) no-repeat center;
     font-family: 'Helvetica neue', Arial, 'sans serif';
     margin: 4em;
     padding: 3em;
@@ -31,7 +32,7 @@ body {
     font-family: 'Helvetica neue', Arial, 'sans serif';
     font-size: 10px;
     max-width: 40em;
-    background-color: aquamarine;
+    background-color: rgba(127, 255, 212, 0.2);
     padding: 3em;
     margin: 4em;
 }
