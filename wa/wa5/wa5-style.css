@@ -7,7 +7,7 @@ body {
 .brand {
     position: relative bottom;
     background-color: rgba(0,0,0,1);
-    background-image: url(hellisthesun.jpg) no-repeat center;
+    background-image: url(/hellisthesun.jpg) no-repeat center;
     font-family: 'Helvetica neue', Arial, 'sans serif';
     margin: 4em;
     padding: 3em;
