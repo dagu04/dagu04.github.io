@@ -28,7 +28,7 @@ body{
 }
 
 #text2 {
-    position: absolute bottom left;
+    float: bottom left;
 }
 
 #box3{
