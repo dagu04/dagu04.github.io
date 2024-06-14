@@ -51,10 +51,11 @@ body {
   
   .photos {
     list-style: none;
-    margin: 1px;
+    margin: 0px;
     padding: 0;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 1px;
   }
 
   .feature {
