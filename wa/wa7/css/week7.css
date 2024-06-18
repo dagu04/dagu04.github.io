@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "GregorianFLF";
+    src: url("GregorianFLF.ttf");
+  }
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: darkslategray;
+    font-family: GregorianFLF, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+body h1{
+    color:aliceblue
+}
+nav{
+    height: 50vh;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height:27px;
+    background-color: aliceblue;
+}
+nav a{
+    width:10vw;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16pt;
+    color:darkslategray;
+}
+
+
+img{
+    width: 25%;
+    height: 25%;
+    opacity: 75%;
+}
+
+img:hover{
+    opacity: 100%
+}
+
+#red-ball{
+    background-color: brown;
+    width: 20px;
+    height:20px;
+    border-radius: 50%;
+    position: absolute;
+    left:5vw;
+    top:5vh;
+    animation-name: ballmove;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes ballmove{
+    from{
+        left:5vw;
+        top:5vh;
+    }
+    12.5%{
+        left: 7vw;
+        top:30vh;
+    }
+    25%{
+        left:10vw;
+        top:5vh;
+    }
+    37.5%{
+        left: 13vw;
+        top:30vh;
+    }
+    50%{
+        left:15vw;
+        top:5vh;
+    }
+    62.5%{
+        left: 13vw;
+        top:30vh;
+    }
+    75%{
+        left:10vw;
+        top:5vh;
+    }
+    87.5%{
+        left: 7vw;
+        top:30vh;
+    }
+    to{
+        left:5vw;
+        top:5vh;
+    }
+}
