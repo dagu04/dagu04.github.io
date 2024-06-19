@@ -1,0 +1,99 @@
+@font-face {
+    font-family: "AtkinsonHyperlegible-Regular";
+    src: url("fonts/AtkinsonHyperlegible-Regular.ttf");
+}
+@font-face {
+    font-family: "HenriDidot";
+    src: url("fonts/HenriDidot.otf");
+}
+
+body{
+    background-image: url(img/background.png);
+    background-size: cover;
+    color: white
+}
+
+#impo h1{
+    font-family: HenriDidot, serif;
+    font-size: 5em;
+    text-align: center;
+}
+#impo p{
+    font-family: AtkinsonHyperlegible-Regular, sans-serif;
+    font-style: regular;
+    @media screen and (min-width:1000px){
+    margin-left: 25%;
+    margin-right: 25%;
+    }
+}
+body #info{
+    font-family: AtkinsonHyperlegible-Regular, sans-serif;
+    font-style: regular;
+    display: grid;
+    grid-template-columns: 1fr;
+    @media screen and (min-width:1000px){
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin: 2em;
+        column-gap: 2em;
+    }
+}
+body #info h2{
+    font-family: HenriDidot, serif;
+    font-size: 2em;
+}
+
+#one{
+    padding:1em;
+}
+#one:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+}
+#two{
+    padding:1em;
+}
+#two:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+}
+#three{
+    padding:1em;
+}
+#three:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+}
+#four{
+    padding:1em;
+}
+#four:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+}
+#five{
+    padding:1em;
+}
+#five:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+}
+#six{
+    padding:1em;
+}
+#six:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+}
+#seven{
+    padding:1em;
+}
+#seven:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+}
+#eight{
+    padding:1em;
+}
+#eight:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+}
+#nine{
+    padding:1em;
+}
+#nine:hover{
+    background-color: rgba(0, 0, 0, 0.33);
+}
