@@ -31,6 +31,7 @@ body #info{
     font-style: regular;
     display: grid;
     grid-template-columns: 1fr;
+
     @media screen and (min-width:1000px){
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -42,6 +43,11 @@ body #info h2{
     font-family: HenriDidot, serif;
     font-size: 2em;
 }
+
+/* hide until click?
+body #info p{
+    display: none;
+}*/
 
 #one{
     padding:1em;
