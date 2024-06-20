@@ -2,6 +2,7 @@
     font-family: "AtkinsonHyperlegible-Regular";
     src: url("fonts/AtkinsonHyperlegible-Regular.ttf");
 }
+
 @font-face {
     font-family: "HenriDidot";
     src: url("fonts/HenriDidot.otf");
@@ -18,6 +19,13 @@ body{
     font-size: 5em;
     text-align: center;
 }
+
+#impo h2{
+    font-family: HenriDidot, serif;
+    font-size: 2em;
+    text-align: center;
+}
+
 #impo p{
     font-family: AtkinsonHyperlegible-Regular, sans-serif;
     font-style: regular;
