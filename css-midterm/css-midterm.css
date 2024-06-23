@@ -4,6 +4,16 @@
 }
 
 @font-face {
+    font-family: "AtkinsonHyperlegible-Bold";
+    src: url("fonts/AtkinsonHyperlegible-Bold.ttf");
+}
+
+@font-face {
+    font-family: "AtkinsonHyperlegible-Italic";
+    src: url("fonts/AtkinsonHyperlegible-Italic.ttf");
+}
+
+@font-face {
     font-family: "HenriDidot";
     src: url("fonts/HenriDidot.otf");
 }
@@ -16,22 +26,31 @@ body{
 
 #impo h1{
     font-family: HenriDidot, serif;
-    font-size: 5em;
+    font-size: 3em;
+    font-weight: normal;
     text-align: center;
+    @media screen and (min-width:1000px){
+        font-size: 5em
+    }
 }
 
 #impo h2{
     font-family: HenriDidot, serif;
     font-size: 2em;
     text-align: center;
+    font-weight: normal;
+    @media screen and (min-width:1000px){
+        font-size: 3em
+    }
 }
 
 #impo p{
     font-family: AtkinsonHyperlegible-Regular, sans-serif;
     font-style: regular;
     @media screen and (min-width:1000px){
-    margin-left: 25%;
-    margin-right: 25%;
+        margin-left: 25%;
+        margin-right: 25%;
+        font-size: 1.5em;
     }
 }
 body #info{
@@ -50,6 +69,23 @@ body #info{
 body #info h2{
     font-family: HenriDidot, serif;
     font-size: 2em;
+    font-weight: normal;
+}
+
+body #info h3{
+    font-family: AtkinsonHyperlegible-Bold, sans-serif;
+    font-weight: normal;
+}
+
+body #info p em{
+    font-family: AtkinsonHyperlegible-Italic, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+
+body #info p strong{
+    font-family: AtkinsonHyperlegible-Bold, sans-serif;
+    font-weight: normal;
 }
 
 /* hide until click?
