@@ -1,0 +1,13 @@
+@font-face {
+    font-family: "AtkinsonHyperlegible-Regular";
+    src: url("AtkinsonHyperlegible-Regular.ttf");
+}
+
+@font-face {
+    font-family: "GregorianFLF";
+    src: url("GregorianFLF.ttf");
+}
+
+#sentence{
+    font-family: AtkinsonHyperlegible-Regular, serif;
+}
