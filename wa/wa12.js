@@ -8,17 +8,19 @@ const answerBtn = document.querySelector('#js-tweet').addEventListener('click', 
 let answerTxt = document.querySelector('#js-answer-text');
 let answer = '';
 
+let author = ''
+
 async function getTrivia() {
     // alert('TEST');
     try {
-        const response = await fetch(endpoint);
-        if (!response.ok) {
-            throw Error(response.statusText)
+        const Response = await fetch(endpoint);
+        if (!Response.ok) {
+            throw Error(Response.statusText)
         }
-        const json = await response.json([]);
-        //console.log(json)
-        displayTrivia(json['0:quote']);
-        author = json['author'];
+        const json = await Response.json();
+        //console.log(json)     
+        displayTrivia(json[0].quote);
+        author = json[0].author;
         answerTxt.textContent = '';
     }
     catch(err) {
