@@ -1,0 +1,46 @@
+@font-face {
+    font-family: Jokerman;
+    src: url(JOKERMAN.TTF);
+}
+
+body {
+    background: linear-gradient(45deg, 
+    red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400% 400%;
+    animation: rainbowAnimation 5s linear infinite normal;
+}
+
+@keyframes rainbowAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    100% {
+      background-position: 100% 50%;
+    }
+  }
+
+form {
+    font-family: "Jokerman", sans-serif;
+    font-size: 14pt;
+    font-weight: 100;
+    color: transparent;
+    background: linear-gradient(225deg, 
+    red, orange, yellow, green, blue, indigo, violet);
+    background-size: 400% 400%;
+    animation: rainbowAnimation 2.5s linear infinite reverse;
+    background-clip:text;
+    letter-spacing: 4em;
+}
+
+#phonenumber {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    margin: 1em;
+    column-gap: 1em;
+}
+
+
+#submit {
+    margin: 1em;
+}
