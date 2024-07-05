@@ -1,6 +1,6 @@
-const form = document.querySelector("#phoneForm")
-let phoneNo = ""
-let currentDigit = 0
+const form = document.querySelector("#phoneForm");
+let phoneNo = "";
+let currentDigit = 0;
 //console.log(phoneNo)
 
 const text = "Phone number: "
@@ -11,10 +11,10 @@ function rolldie(max) {
 }
 
 //array of dice types (standard 7piece polyhedral)
-diceArray = [4,6,8,10,100,12,20]
+diceArray = [4,6,8,10,100,12,20];
 
 //randomize which die is rolled
-var randomDie = '';
+var currentDie = 0;
 function dieRandom() {
   let randomSeed = Math.floor(Math.random() * diceArray.length);
   let randomDie = diceArray[randomSeed];
@@ -23,25 +23,25 @@ function dieRandom() {
   dieBtn.innerText = `Roll d${randomDie}`;
   //console.log(dieBtn);
   //console.log(randomDie);
-  return randomDie
+  currentDie = randomDie
 }
 
 function inputdie() {
-  let paraselect = document.querySelector(`#phonenumber`)
-  currentDigit = rolldie(dieRandom())
+  let paraselect = document.querySelector(`#phonenumber`);
+  currentDigit = rolldie(currentDie);
   //console.log(currentDigit)
-  paraselect.innerText = text + phoneNo + `${currentDigit}`
+  paraselect.innerText = text + phoneNo + `${currentDigit}`;
   dieRandom()
 }
 
 function acceptDigit() {
   if (phoneNo.length < 10) {
-    phoneNo += currentDigit
-    alert('Accepted!')
-    dieRandom()
+    phoneNo += currentDigit;
+    alert('Accepted!');
+    dieRandom();
   } 
   else {
-    alert('Cannot input more digits')
+    alert('Cannot input more digits');
   }
 }
 
@@ -56,6 +56,7 @@ function submitBtn() {
     alert(`Phone number entered: ${phoneNo}`)
   }
   else {
-    alert('Phone number invalid')
+    alert('Phone number invalid, number reset')
+    resetNo()
   }
 }
