@@ -7,20 +7,16 @@
     <title>Input Phone Number</title>
 </head>
 <body>
-    <!--Source or base code https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#examples-->
       <form method="get" id="phoneForm">
         <h1>Enter your telephone number:</h1>
-          <span class="areaDiv1">
-            <p id = "phonenumber">Phone number: </p>
-            <button id="roll1" onclick="inputd10()" type="button">Roll d10</button>              
-            <button id="accept1" onclick="acceptDigit()" type="button">Accept Digit</button>
-            <button id="reset" onclick="resetNo()" type="button">Reset</button>
-          </span><br>
-          <!--<div id="submit">
-          <button type="submit" value="">Submit</button>
-        </div>-->
+        <p id = "phonenumber">Phone number: </p>
+        <!--<p id = "currentDie">Current die:</p>-->
+        <button id="roll1" onclick="inputdie()" type="button">Roll d</button>
+        <button id="newBtn" onclick="dieRandom()" type="button">New die</button>              
+        <button id="accept1" onclick="acceptDigit()" type="button">Accept Digit</button>
+        <button id="reset" onclick="resetNo()" type="button">Reset</button>
       </form>
-      <button type="submit" onclick="resetNo()">Submit</button>
+      <button type="submit" onclick="submitBtn()">Submit</button>
       <script src="bad.js"></script>
     </body>
 </html>

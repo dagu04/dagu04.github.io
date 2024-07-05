@@ -1,25 +1,48 @@
 const form = document.querySelector("#phoneForm")
 let phoneNo = ""
 let currentDigit = 0
-console.log(phoneNo)
+//console.log(phoneNo)
 
 const text = "Phone number: "
 
-//make function to roll d10
+//make function to roll any die
 function rolldie(max) {
   return Math.floor(Math.random() * max);
 }
-console.log(rolldie(10));
 
-//make event listeners for all roll d10 buttons
-function inputd10() {
+//array of dice types (standard 7piece polyhedral)
+diceArray = [4,6,8,10,100,12,20]
+
+//randomize which die is rolled
+var randomDie = '';
+function dieRandom() {
+  let randomSeed = Math.floor(Math.random() * diceArray.length);
+  let randomDie = diceArray[randomSeed];
+  //console.log(`d${randomDie}`);
+  let dieBtn = document.querySelector('#roll1');
+  dieBtn.innerText = `Roll d${randomDie}`;
+  //console.log(dieBtn);
+  //console.log(randomDie);
+  return randomDie
+}
+
+function inputdie() {
   let paraselect = document.querySelector(`#phonenumber`)
-  currentDigit = rolldie(10)
+  currentDigit = rolldie(dieRandom())
+  //console.log(currentDigit)
   paraselect.innerText = text + phoneNo + `${currentDigit}`
+  dieRandom()
 }
 
 function acceptDigit() {
-  phoneNo += currentDigit
+  if (phoneNo.length < 10) {
+    phoneNo += currentDigit
+    alert('Accepted!')
+    dieRandom()
+  } 
+  else {
+    alert('Cannot input more digits')
+  }
 }
 
 function resetNo() {
@@ -28,23 +51,11 @@ function resetNo() {
   paraselect.innerText = text + phoneNo
 }
 
-//make event listeners for all accept digit buttons
-for (x = 0; x < 10; x++) {
-  const acceptbtnselect = document.querySelector(`accept${x}`)
-  //console.log(`accept${x+1}`)
+function submitBtn() {
+  if (phoneNo.length==10){
+    alert(`Phone number entered: ${phoneNo}`)
+  }
+  else {
+    alert('Phone number invalid')
+  }
 }
-//make sure these buttons only affect their respective inputs
-
-//add rolled d10 into respective paragraph
-
-//call data from all inputs to form singular, 10 digit phone number
-
-//input this into a final telephone input
-
-//make submit button log the final number into the console to check functionality
-
-
-//function displayNo() {
-  //const newNo = document.querySelectorAll();  
-//}
-
